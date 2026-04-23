@@ -2,80 +2,136 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>M. Reza Salarian - CV</title>
+  <title>M. Reza Salarian</title>
+
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
+      background: #f5f7fa;
+      margin: 0;
+    }
+
+    .container {
       max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
     }
-    h1, h2 {
-      color: #2c3e50;
-    }
+
     h1 {
       text-align: center;
+      margin-bottom: 5px;
     }
-    section {
+
+    .subtitle {
+      text-align: center;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      text-align: center;
       margin-bottom: 30px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #0077cc;
+    }
+
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+
+    ul {
+      line-height: 1.8;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 5px 0;
+      background: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background: #005fa3;
     }
   </style>
 </head>
 
 <body>
 
+<div class="container">
+
 <h1>M. Reza Salarian</h1>
-<p style="text-align:center;">
+<p class="subtitle">
 Guest Lecturer in Mathematics<br>
 University of Bielefeld, Germany<br>
 Email: salarian@math.uni-bielefeld.de
 </p>
 
-<hr>
+<nav>
+  <a href="#profile">Profile</a>
+  <a href="#appointments">Appointments</a>
+  <a href="#research">Research</a>
+  <a href="#teaching">Teaching</a>
+  <a href="#publications">Publications</a>
+</nav>
 
-<section>
-<h2>Academic Profile</h2>
+<h2 id="profile">Academic Profile</h2>
 <p>
-I am a mathematician specialising in group theory, algebraic graph theory, and computational aspects of isomorphism problems...
+I am a mathematician specialising in group theory, algebraic graph theory, and computational aspects of isomorphism problems.
+My research focuses on geometric and graph-based methods for understanding algebraic structures, including Weisfeiler–Leman techniques and graph isomorphism.
 </p>
-</section>
 
-<section>
-<h2>Academic Appointments</h2>
+<h2 id="appointments">Academic Appointments</h2>
 <ul>
-<li>Guest Lecturer, University of Bielefeld (2025–Present)</li>
-<li>Assistant Professor, Kharazmi University</li>
-<li>Senior Researcher, Alfréd Rényi Institute</li>
+  <li>Guest Lecturer, University of Bielefeld (2025–Present)</li>
+  <li>Assistant Professor, Kharazmi University</li>
+  <li>Senior Researcher, Alfréd Rényi Institute of Mathematics (2022–2023)</li>
 </ul>
-</section>
 
-<section>
-<h2>Education</h2>
+<h2 id="research">Research Interests</h2>
 <ul>
-<li>PhD in Mathematics, Martin-Luther University, Germany</li>
-<li>MSc, Iran University of Science and Technology</li>
-<li>BSc, Ferdowsi University of Mashhad</li>
+  <li>Geometric Group Theory</li>
+  <li>Algebraic and Combinatorial Graph Theory</li>
+  <li>Graph Isomorphism & Weisfeiler–Leman Methods</li>
+  <li>Finite Groups</li>
 </ul>
-</section>
 
-<section>
-<h2>Research Interests</h2>
-<ul>
-<li>Geometric Group Theory</li>
-<li>Algebraic Graph Theory</li>
-<li>Graph Isomorphism & Computational Complexity</li>
-<li>Finite Groups</li>
-</ul>
-</section>
+<h2 id="teaching">Teaching Notes</h2>
 
-<section>
-<h2>Selected Publications</h2>
+<h3>Algebra / Group Theory</h3>
+<a class="button" href="https://drive.google.com/file/d/1FYrARMyCpEn4YW0C6Bgt4B3QVHmf-ujr/view?usp=drive_link" target="_blank">
+Download Notes 1
+</a>
+
+<h3>Graph Theory</h3>
+<a class="button" href="https://drive.google.com/file/d/1_yiqAXHDsAyHYwlGVwofoht_dqUutyhM/view?usp=drive_link" target="_blank">
+Download Notes 2
+</a>
+
+<h2 id="publications">Selected Publications</h2>
 <ol>
-<li>An Identification of Co1 (J. Algebra, 2008)</li>
-<li>An Identification for the Monster group (J. Algebra, 2010)</li>
-<li>Weisfeiler–Leman methods and graph isomorphism (2026)</li>
+  <li>An Identification of Co1 (J. Algebra, 2008)</li>
+  <li>An Identification for the Monster Group (J. Algebra, 2010)</li>
+  <li>Weisfeiler–Leman Dimensions of 3-Transposition Groups (2026)</li>
 </ol>
-</section>
+
+</div>
 
 </body>
 </html>
